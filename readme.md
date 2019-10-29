@@ -1,4 +1,4 @@
-# Dados Agrupados e Distribuição Normal
+# Dados-Agrupados-e-Distribuição-Normal
 Trabalho realizado para a matéria de Estatística do Professor Reginaldo 
 FATEC Zona Sul
 
@@ -12,12 +12,12 @@ FATEC Zona Sul
 
 <h3>Passo a Passo para executar<h3>
 
-1. Dentro do console(prompt de comando), navegue até o diretório do código
+<p>1. Dentro do console(prompt de comando), navegue até o diretório do código</p>
 
-2. utilize o seguinte comando:
+<p>2. utilize o seguinte comando:</p>
 
     <code>ip install -r requirements.txt<code>
-3. por fim executar o comando:
+<p>3. por fim executar o comando:</p>
 * Para acessar o programa de Dados Agrupados:
     <code>cd DadosAgrupados > python main.py<code> 
 * Para acessar o programa de Distribuicao Normal:
