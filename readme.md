@@ -1,16 +1,13 @@
-Passo a Passo para executar
-1 - Dentro do console(prompt de comando), navegue até o diretório do código
+#Passo a Passo para executar
+1. Dentro do console(prompt de comando), navegue até o diretório do código
 
-2 - utilize o seguinte comando:
+2. utilize o seguinte comando:
 
 pip install -r requirements.txt
-3 - por fim executar o comando:
+
+3. por fim executar o comando:
 
 
-cd DadosAgrupados > python main.py 
-
-
-ou 
-
-
-cd DistribuicaoNormal > python3 Principal.py
+* cd DadosAgrupados > python main.py 
+ 
+* cd DistribuicaoNormal > python3 Principal.py
