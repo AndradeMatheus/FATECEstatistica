@@ -17,12 +17,8 @@ FATEC Zona Sul
 2. utilize o seguinte comando:
 
     <code>ip install -r requirements.txt<code>
-
 3. por fim executar o comando:
-
-
 * Para acessar o programa de Dados Agrupados:
     <code>cd DadosAgrupados > python main.py<code> 
- 
 * Para acessar o programa de Distribuicao Normal:
     <code>cd DistribuicaoNormal > python3 Principal.py<code>
