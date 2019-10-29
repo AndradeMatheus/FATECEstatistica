@@ -10,3 +10,5 @@ Tema:
 [12:08 PM, 10/27/2019] Lucas Mestre Pokemon: dados = {10:5, 20:12... }
 
 https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/
+
+https://www.codecademy.com/articles/how-to-use-jupyter-notebooks
