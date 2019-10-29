@@ -17,7 +17,9 @@ FATEC Zona Sul
 <p>2. utilize o seguinte comando:</p>
     <code>pip install -r requirements.txt<code>
 <p>3. por fim executar o comando:</p>
+
 * Para acessar o programa de Dados Agrupados:
     <code>cd DadosAgrupados > python main.py<code> 
+    
 * Para acessar o programa de Distribuicao Normal:
     <code>cd DistribuicaoNormal > python3 Principal.py<code>
