@@ -5,7 +5,7 @@ pd.options.display.max_rows = 10
 data  = pd.read_csv("untitled.csv")
 print(data)
 
-desvioporgrupo = data.groupby(["animal"]).agg({"water_need": ["std"]})
+desvioporgrupo = data.groupby(["nome"]).agg({"quantidade": ["std"]})
 print(desvioporgrupo)
 
 desvio = data.water_need.std()
