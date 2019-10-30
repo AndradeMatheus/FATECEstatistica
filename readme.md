@@ -9,6 +9,8 @@ FATEC Zona Sul
 * Lucas Pereira
 * José Osdinei
 * Ezequiel Costa
+* Miquéias Batista
+* Israel Franklin
 
 <h3>Passo a Passo para executar<h3>
 
