@@ -1,4 +1,6 @@
 import math, os, sys
+
+valores = []
  
 def calcular(valores=None, calculos=None):
     if valores:
@@ -36,16 +38,23 @@ def calcular(valores=None, calculos=None):
             calculos['media'] = media(valores)
             calculos['variancia'] = variancia(valores)
             calculos['desvio_padrao'] = desvio_padrao(valores)
- 
- 
+def main():
+    while(True):
+        entrada = input('Entre com os valores, separando-os por virgula\n pressione (Enter) | pressione \'c\' + (Enter) para calcular\n: ')
+        if(entrada == 'c'):
+            break
+
+        for n in entrada.split(','):
+            valores.append(int(n))
+
+main()
+
 if __name__ == '__main__':
-    os.system('clear')
-#   valores = range(1, 16)
-    valores = [7, 5, 3]
+    os.system('cls')
     calculos = {}
     calcular(valores, calculos)
     print ('VALORES INFORMADOS: %s' % valores)
     print ('SOMA => %d' % calculos['soma'])
-    print ('MÉDIA => %.2f' % calculos['media'])
-    print ('VARIÂNCIA => %.2f' % calculos['variancia'])
-    print ('DESVIO PADRÃO => %.2f' % calculos['desvio_padrao'])
+    print ('MÉDIA => %.6f' % calculos['media'])
+    print ('VARIÂNCIA => %.6f' % calculos['variancia'])
+    print ('DESVIO PADRÃO => %.6f' % calculos['desvio_padrao'])

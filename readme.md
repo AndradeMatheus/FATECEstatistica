@@ -22,4 +22,4 @@ FATEC Zona Sul
     <code>cd DadosAgrupados > python main.py<code> 
     
 * Para acessar o programa de Distribuicao Normal:
-    <code>cd DistribuicaoNormal > python3 Principal.py<code>
+    <code>cd DesvioPadrao > python3 Principal.py<code>
