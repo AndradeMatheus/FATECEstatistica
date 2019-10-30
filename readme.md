@@ -1,8 +1,8 @@
 # Dados-Agrupados-e-Distribuição-Normal
-Trabalho realizado para a matéria de Estatística do Professor Reginaldo 
+Trabalho realizado para a matéria de Estatística do Professor Reginaldo
 FATEC Zona Sul
 
-<h3>Integrantes<h3>
+<h3>Integrantes</h3>
 
 * Matheus Andrade
 * Derick Benites
@@ -12,7 +12,7 @@ FATEC Zona Sul
 * Miquéias Batista
 * Israel Franklin
 
-<h3>Passo a Passo para executar<h3>
+<h3>Passo a Passo para executar</h3>
 
 <p>1. Dentro do console(prompt de comando), navegue até o diretório do código</p>
 
