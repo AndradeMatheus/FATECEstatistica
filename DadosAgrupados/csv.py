@@ -3,19 +3,19 @@ import pandas as pd
 
 pd.options.display.max_rows = 10
 data  = pd.read_csv("data.csv")
-print(data)
+print('Dados do CSV: \n', data)
 
 desvioporgrupo = data.groupby(["animal"]).agg({"water_need": ["std"]})
-print(desvioporgrupo)
+print('Desvio por grupo: \n', desvioporgrupo)
 
 desvio = data.water_need.std()
-print(format(desvio))
+print(format('Desvio: ', desvio))
 
 media = data.water_need.mean()
-print(format(media))
+print(format('Media: ', media))
 
 dispersao = data.water_need.skew()
-print(dispersao)
+print('Dispersao: ', dispersao)
 
 soma = data.water_need.sum()
-print(soma)
+print('Soma: ', soma)
