@@ -14,13 +14,11 @@ def calcular(valores=None, calculos=None):
                     soma += v
                 return soma
  
- 
             def media(valores):
                 soma = somar(valores)
                 qtd_elementos = len(valores)
                 media = soma / float(qtd_elementos)
                 return media
- 
  
             def variancia(valores):
                 _media = media(valores)
@@ -32,7 +30,6 @@ def calcular(valores=None, calculos=None):
                 _variancia = soma / float( len(valores) )
                 return _variancia
  
- 
             def desvio_padrao(valores):
                 return math.sqrt( variancia(valores) )
                  
@@ -41,6 +38,7 @@ def calcular(valores=None, calculos=None):
             calculos['media'] = media(valores)
             calculos['variancia'] = variancia(valores)
             calculos['desvio_padrao'] = desvio_padrao(valores)
+            
 def desvioPadrao():
     while(True):
         entrada = input('Entre com os valores, separando-os por virgula\n pressione (Enter) | pressione \'c\' + (Enter) para calcular\n: ')
